@@ -1,5 +1,7 @@
 from archivos import leer_imagen2, escribir_imagen2
+# from skimage import exposure, transform, io
 from skimage import exposure, transform, io
+
 
 
 def contraste_adaptativo(img):

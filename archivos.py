@@ -4,8 +4,8 @@ import os
 from PIL import Image
 from skimage import io
 
-# carpeta_imagenes = './imagenes'
-carpeta_imagenes = '/home/sebas/UNaHur/progConcu_2020verano/python-manipulacion-imagenes/imagenes'
+carpeta_imagenes = './imagenes'
+# carpeta_imagenes = '/home/sebas/UNaHur/progConcu_2020verano/python-manipulacion-imagenes/imagenes'
 
 def armar_ruta(nombre):
   return os.path.join(carpeta_imagenes, nombre)
